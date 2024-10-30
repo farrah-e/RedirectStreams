@@ -1,1 +1,23 @@
-redirectingFunc.c
+Banana
+Apple
+Oranges
+Watermelon
+Mango
+Grapes
+Durian
+Cherry
+Honeydew
+Pineapple
+Cranberry
+Blueberry
+Strawberry
+Kiwi
+Papaya
+Melon
+Rambutan
+Pear
+Peach
+Raspberry
+Apricot
+Dragon Fruit
+Calamansi

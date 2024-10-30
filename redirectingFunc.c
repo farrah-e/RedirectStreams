@@ -8,9 +8,10 @@
 #include "redirectingFunc.h"
 
 void redirectCommand(const char *inputFile, const char *cmd, const char *outputFile) {
-    printf("newArgv[0]: %s\n", inputFile);
-    printf("newArgv[1]: %s\n", cmd);
-    printf("newArgv[2]: %s\n", outputFile);
+    printf("Input File: %s\n", inputFile);
+    printf("Command: %s\n", cmd);
+    printf("OutputFile: %s\n", outputFile);
+    printf("Please look at the output file for the result\n");
     pid_t childpid = fork();
     if (childpid == 0) forkIt(inputFile, cmd, outputFile);
     else wait(NULL);
